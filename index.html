@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>谢辰飞的博客</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link rel="stylesheet" href="./css/site.css">
+	<script src="./js/jquery-1.7.2.js"></script>
+<script>
+    ;(function(win, doc){
+        function change(){
+            doc.documentElement.style.fontSize=100*doc.documentElement.clientWidth/320+'px';
+        }
+        change();
+        win.addEventListener('resize', change, false);
+    })(window, document);
+</script>
+</head>
+<body>
+	<div class="wrapper">
+		<nav>
+			<ul class="clearfix">
+				<li>
+					<div>
+						<a href="#">辰飞</a>
+					</div>
+				</li>
+				<li><a href="javascript:;">首页</a></li>
+				<li><a href="./link//h5/piano/piano.html">学习</a></li>
+				<li><a href="./link/game/index.html">娱乐</a></li>
+				<li><a href="./link/h5/index.html">更多</a></li>
+			</ul>
+		</nav>
+		<main>
+			<div class="person-info-box">
+				<img src="./img/x.jpg" />
+			</div>
+			<div class="content-box">
+				<p>
+					我叫谢辰飞。全宇宙我最牛逼。
+				</p>
+			</div>
+			<div class="foo" id="foo">
+				
+			</div>
+		</main>
+		<footer>
+			<p>版权信息：◎tun</p>
+		</footer>
+	</div>
+</body>
+</html>
